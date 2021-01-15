@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "533056623528",
+    "firebase_url": "https://mobile-6b27d.firebaseio.com",
+    "project_id": "mobile-6b27d",
+    "storage_bucket": "mobile-6b27d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533056623528:android:09e55da11982b0c967839d",
+        "android_client_info": {
+          "package_name": "com.jesuskostov.evento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533056623528-nfohahuortunpsq8l43sv30vgkam01ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfc4xJ9TM9yNXxXEAqtQKRLbLwhfdUSHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533056623528-nfohahuortunpsq8l43sv30vgkam01ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Evento",
+    "slug": "Evento",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Give Expo experiences permission to access your photos",
+        "NSCameraUsageDescription": "Allow Expo experiences to use your camera"
+      }
+    },
+    "facebookScheme": "fb2751540728439258",
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./assets/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jesuskostov.evento"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "description": ""
+  }
+}
